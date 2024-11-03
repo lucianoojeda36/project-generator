@@ -29,7 +29,7 @@ A npm package that allows you to easily create frontend projects with React, bac
 To use this package, you need to have Node.js and npm installed on your machine. You can then install the package globally using:
 
 ```bash
-npm install -g create-project-cli
+npm install -g project-generators
 
 ## Usage
 
