@@ -4,7 +4,7 @@
   "description": "CLI para inicializar proyectos de Node.js y React",
   "main": "dist/index.js",
   "bin": {
-    "create-project-cli": "dist/index.js"
+    "project-generators": "dist/index.js"
   },
   "scripts": {
     "build": "tsc",

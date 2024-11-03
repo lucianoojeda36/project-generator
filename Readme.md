@@ -35,15 +35,15 @@ npm install -g project-generators
 
 Create a Frontend Project
 
-npm start --- react -- name 
+project-generators --- react -- name 
 
 Create a Backend Project
 
-npm start --- Node.js -- name 
+project-generators --- Node.js -- name 
 
 Create a Fullstack Project
 
-npm start --- React + Node.js -- name 
+project-generators --- React + Node.js -- name 
 
 
 ##Project Structure
