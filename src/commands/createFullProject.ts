@@ -1,7 +1,7 @@
 import path from 'path';
 import fs from 'fs-extra';
-import createReactProject from './createReactProject';
-import createNodeProject from './createNodeProject';
+import createReactProject from './createReactProject.js';
+import createNodeProject from './createNodeProject.js';
 
 const createFullProject = async (projectPath: string, name: string) => {
   console.log(`Creando proyecto full-stack: ${name}...`);

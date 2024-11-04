@@ -2,7 +2,7 @@ import fs from 'fs-extra';
 import path from 'path';
 import execa from 'execa';
 import ora from 'ora';
-import { getDirname } from '../utils/helpers';
+import { getDirname } from '../utils/helpers.js';
 
 const createReactProject = async (basePath: string, name: string) => {
   const spinner = ora('Initializing project creation...').start();

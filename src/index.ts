@@ -1,8 +1,10 @@
+#!/usr/bin/env node
+
 import inquirer from 'inquirer';
 import path from 'path';
-import createReactProject from './commands/createReactProject';
-import createNodeProject from './commands/createNodeProject';
-import createFullProject from './commands/createFullProject';
+import createReactProject from './commands/createReactProject.js';
+import createNodeProject from './commands/createNodeProject.js';
+import createFullProject from './commands/createFullProject.js';
 
 const main = async () => {
   const answers = await inquirer.prompt([

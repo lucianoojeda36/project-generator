@@ -1,7 +1,7 @@
 import { exec } from 'child_process';
 import fs from 'fs-extra';
 import path from 'path';
-import { getDirname } from '../utils/helpers';
+import { getDirname } from '../utils/helpers.js';
 
 const execPromise = (command: string, options: object) => {
   return new Promise((resolve, reject) => {
